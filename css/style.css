@@ -1,0 +1,107 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  body {
+      background-image: url(pattern.png);
+  }
+  #block-body {
+      width: 1035px;
+      margin: 5px auto;
+      height: auto;
+  }
+  header {
+     width: 1035px; 
+     height: 80px;
+     background-color: #bd9c0c86;
+  }
+  #block-content {
+      width: 1035px;
+      height: auto;
+      min-height: 500px;
+  }
+  .logo {
+      width: 200px;
+      float: left;
+      height: 80px;
+  }
+  .logo a {
+      display: block;
+      margin-left: 18px;
+      margin-top: 10px;
+      font-family: sans-serif;
+      font-size: 26px;
+      color:  #b2aeb2;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  .use {
+      color: #ffffff;
+      font-weight: bold;
+      
+  }
+  .logo p {
+      margin-left: 35px;
+      margin-top: 2px;
+      margin-bottom: 5px;
+      font-family:  sans-serif;
+      font-size: 13px;
+      color: white;
+  }
+  .top-menu {
+      width: 685px;
+      height: 80px;
+      float: left;
+  }
+  .top-menu ul li {
+      list-style: none;
+      float: left;
+      text-align: center;
+  }
+  .top-menu ul li a {
+      display: block;
+      width: 171px;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-size: 17px;
+      color: white;
+      height: 55px;
+      padding-top: 25px;
+      cursor: pointer;
+  }
+  .top-menu ul li a:hover {
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition:all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      background: #97dff567;
+  }
+  .block-top-auth {
+      width: 100px;
+      float: left;
+      margin-left: 40px;
+      height: 80px;
+  }
+  .block-top-auth p {
+      margin-top: 12px;
+      text-align: center;
+      margin-bottom: 8px;
+      
+  }
+  .block-top-auth a {
+      text-decoration: none;
+      color: white;
+      font-family: sans-serif;
+      font-size: 15px;
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  .block-top-auth a:hover {
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition:all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      color: #97dff567;
+  }
