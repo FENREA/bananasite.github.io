@@ -1,0 +1,129 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  body {
+      background-image: url(/img/pattern.png);
+  }
+  #block-body {
+      width: 1200px;
+      margin: 5px auto;
+      height: auto;
+  }
+  header {
+     width: 1200px; 
+     height: 80px;
+     background-color: #bd9c0c86;
+  }
+  #block-content {
+      width: 1200px;
+      height: auto;
+      min-height: 500px;
+  }
+  .logo {
+      width: 200px;
+      float: left;
+      height: 80px;
+  }
+  .logo a {
+      display: block;
+      margin-left: 18px;
+      margin-top: 10px;
+      font-family: sans-serif;
+      font-size: 26px;
+      color:  #b2aeb2;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  .use {
+      color: #ffffff;
+      font-weight: bold;
+      margin-left: 15px;
+      
+  }
+  .logo p {
+      margin-left: 35px;
+      margin-top: 2px;
+      margin-bottom: 5px;
+      font-family:  sans-serif;
+      font-size: 13px;
+      color: white;
+  }
+  .top-menu {
+      width: 800px;
+      height: 80px;
+      float: left;
+  }
+  .top-menu ul li {
+      list-style: none;
+      float: left;
+      text-align: center;
+  }
+  .top-menu ul li a {
+      display: block;
+      width: 190px;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-size: 17px;
+      color: white;
+      height: 55px;
+      padding-top: 25px;
+      cursor: pointer;
+      margin-left: 10px;
+  }
+  .top-menu ul li a:hover {
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition:all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      background: #97dff567;
+  }
+  .block-top-auth {
+      width: 100px;
+      float: left;
+      margin-left: 40px;
+      height: 80px;
+  }
+  .block-top-auth p {
+      margin-top: 12px;
+      text-align: center;
+      margin-bottom: 8px;
+      
+  }
+  .block-top-auth a {
+      text-decoration: none;
+      color: white;
+      font-family: sans-serif;
+      font-size: 15px;
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  .block-top-auth a:hover {
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition:all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      color: #ddf4fcdc;
+  }
+  .content {
+    width: 1550px; 
+    height: 1100px;
+    background-color:  #bd9c0c69;
+    margin: auto;
+  }
+  .kakuzu {
+      padding-top: 200px;
+      margin-left: 500px;
+  }
+  .kizaru {
+      margin-left: -5px;
+      padding-top: 70px;  
+  }
+  .ctt {
+      font-size: 80px;
+      color: #fffffffb;
+      padding-left: 350px;
+      padding-top: 30px;
+  }
